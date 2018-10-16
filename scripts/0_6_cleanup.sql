@@ -3,6 +3,8 @@ DROP INDEX eater_name_up_ix;
 DROP INDEX food_name_up_ix;
 DROP INDEX food_name_nvl_ix;
 DROP INDEX eaters_food_id_fk;
+DROP INDEX eater_name_ix;
+DROP INDEX food_name_ix;
 
 -- 2) Drop sequences
 DROP SEQUENCE foods_seq;
