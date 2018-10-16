@@ -13,5 +13,5 @@ DROP TRIGGER foods_autinc_trg;
 DROP TRIGGER eaters_autinc_trg;
 
 -- 4) Drop tables
-DROP TABLE foods;
 DROP TABLE eaters;
+DROP TABLE foods;

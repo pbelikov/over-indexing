@@ -8,4 +8,4 @@ SELECT e.eater_name, f.food_name
 FROM eaters e
      LEFT JOIN foods f ON f.id = e.food_id
 WHERE UPPER (e.eater_name) LIKE '%' || :partial_eater_name || '%'
-  AND NVL (f.food_name, 'not eaten') <> 'not eaten'
+  AND NVL (f.food_name, 'not eaten') <> 'not eaten';
