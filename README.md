@@ -4,7 +4,15 @@ Repository of scripts, that are published in Medium article "On indexes in RDBMS
 
 All scripts are made using Oracle SQL dialect.
 
-// TODO I need to add details about scripts (break them into before/after) and check the scripts in actual db.
+### Structure
+
+SQL-scripts are inside `scripts/` folder.
+
+- `1_create.sql` - create tables, keys and indexes
+- `2_insert_data.sql` - populate data for FOODS and EATERS tables
+- `3_queries.sql` - queries, that are being analyzed
+- `4_updated_queries.sql` - updated queries, that are made faster
+- `5_remove_useless_indexes.sql` - couple of statements to remove unused indexes
 
 ### Prerequisites
 

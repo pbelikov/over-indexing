@@ -3,7 +3,6 @@ SELECT food_name
 FROM foods
 WHERE food_name LIKE '%' || :partial_food_name || '%';
 
-
 -- 2) Get all the eaters, that ate something and whose names contain partial
 SELECT e.eater_name, f.food_name
 FROM eaters e
