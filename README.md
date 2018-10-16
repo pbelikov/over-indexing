@@ -8,6 +8,7 @@ All scripts are made using Oracle SQL dialect.
 
 SQL-scripts are inside `scripts/` folder.
 
+- `0_6_cleanup.sql` - drop tables, triggers, sequences, i.e. prepare before and clean-up after running it all
 - `1_create.sql` - create tables, keys and indexes
 - `2_insert_data.sql` - populate data for FOODS and EATERS tables
 - `3_queries.sql` - queries, that are being analyzed
