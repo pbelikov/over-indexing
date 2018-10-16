@@ -1,4 +1,4 @@
-### Food database
+## "Dishes app" database
 
 Repository of scripts, that are published in Medium article "On indexes in RDBMS and why NOT use them.".
 
